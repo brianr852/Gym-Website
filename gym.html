@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title> The Gym - Personal Training </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/gym.css">
+	<link rel="stylesheet" href="./css/blueberry.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="./js/jquery.blueberry.js"></script>
+</head>
+
+<body>
+	<header>
+	<div class="container">
+		<a href="#" id="logo"></a>
+		<nav>
+			<a href="#" id="menu-icon"></a>
+			<ul>
+				<li><a href="#">FIND A CLUB</a></li>
+				<li><a href="#">ABOUT US</a></li>
+				<li><a href="#">CLASSES</a></li>
+				<li><a href="#">PERSONAL TRAINING</a></li>
+				<li><a href="#">MEMBERSHIPS</a></li>
+				<li><a href="#">JOIN NOW</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+	
+	<div id="doc">
+		<div id="content">
+			<div class="blueberry">
+				<ul class="slides">
+					<li><img src="http://www.w3newbie.com/wp-content/uploads/inside-gym.png" /></li>
+					<li><img src="http://www.w3newbie.com/wp-content/uploads/push-ups.png" /></li>
+					<li><img src="http://www.w3newbie.com/wp-content/uploads/chest-fly.png" /></li>
+					<li><img src="http://www.w3newbie.com/wp-content/uploads/training.png" /></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<p><span class="headline">Why The Gym?</span></p>
+	<div class="clear"></div>
+	<section>
+		<li><img src="http://www.w3newbie.com/wp-content/uploads/trainers.png" /></li>
+		<h1>Best Trainers Around! </h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+	</section>
+	<section>
+		<li><img src="http://www.w3newbie.com/wp-content/uploads/location.png" /></li>
+		<h1>Local & Convenient. </h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+	</section>
+	<section>
+		<li><img src="http://www.w3newbie.com/wp-content/uploads/check.png" /></li>
+		<h1>Check Us Out - Free! </h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+	</section>
+	<div class="clear"></div>
+	
+	<div class = "box">
+		<section>
+			<img src="http://www.w3newbie.com/wp-content/uploads/gym-classes.jpg" />
+		</section>
+	
+		<section>
+			<h2>Our Group Class Schedule</h2>
+			<ul class="gym">
+				<li><h3>Studio Cycling at 8 a.m.- 60 minutes</h3></li>
+				<li><h3>Abs Sculpting at 12 p.m.- 30 minutes</h3></li>
+				<li><h3>Power Yoga at 10 a.m.- 60 minutes</h3></li>
+				<li><h3>Boot Camp at 2 p.m.- 30 minutes</h3></li>
+				<li><h3>Butt Sculpting at 4 p.m.- 60 minutes</h3></li>
+			</ul>
+		</section>
+
+		<section>
+			<div class="bmi-calc">
+				<form name="myForm">
+					<h1>See if you need the Gym with this BMI calculator.</h1>
+					<label> <h2>Weight</h2> </label>
+					<input type="text" name="weight" id="weight" placeholder="Enter weight in lb."/> <br />
+					<label> <h2>Height</h2> </label>
+					<input type="text" name="height" id="height" placeholder="Enter height in ft." /> 
+					<input type="text" name="height-in" id="height-in" placeholder="Enter height in inches." /> <br />
+					<input type="button" name="BMI" value="BMI" id="input-submit" onClick="BMIcalc()" />
+					<input type="reset" name="Reset" value="Reset" id="input-submit" />
+				</form>
+			 </div>
+		</section>
+	</div>
+	<div class="clear"></div>
+	
+	<section>
+		<h1>Ladies Section</h1>
+		<li><img src="http://www.w3newbie.com/wp-content/uploads/ladies-gym.jpg" /></li>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+	</section>
+	<section>
+		<h1>The Gym Floor</h1>
+		<li><img src="http://www.w3newbie.com/wp-content/uploads/gym-floor.jpg" /></li>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+	</section>
+	<section>
+		<h1>Free Weights</h1>
+		<li><img src="http://www.w3newbie.com/wp-content/uploads/free-weights.jpg" /></li>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+	</section>
+
+	<footer>
+		<section>
+			<h3><b>The Gym</b></h3>
+			<p><b>215-555-5555</b><br><br>
+			1700 chestnut Street<br>
+			Phiidalphia, Pa 19100<br>
+			trainer@thegym.com</p>
+		</section>
+		
+		<section>
+			<h3>Connect With Us!</h3>
+			<ul class="social">
+				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png" /></a></li>
+				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png" /></a></li>
+				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png" /></a></li>
+				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png" /></a></li>
+			</ul>
+		</section>
+		
+		<section>
+			<img src="http://www.w3newbie.com/wp-content/uploads/weight-lifter.png" />
+		</section>
+	</footer>
+	<footer class="second">
+		<p>&copy;Copyright- The Gym, 2017</p>
+	</footer>
+	
+	
+	<script>
+	$(window).load(function() {
+		$('.blueberry').blueberry();
+	});
+	
+
+
+	
+	function BMIcalc()
+		{
+	var x = document.forms["myForm"]["weight"].value;
+	var y = document.forms["myForm"]["height"].value;
+	var z = document.forms["myForm"]["height-in"].value;
+    if (x == "", y == "", z == "") 
+	{
+        alert("Missing input.");
+    }
+		
+			var w_txt = document.getElementById('weight');
+			var h_txt = document.getElementById('height');
+			var hi_txt = document.getElementById('height-in');
+			var w = parseInt(w_txt.value);
+			var h = parseInt(h_txt.value);
+			var hi = parseInt(hi_txt.value);
+			
+			h = h / 3.28084;
+			hi = hi / 39.3701;
+			h = h + hi;
+			w = w / 2.20462;
+			
+			
+			var errMsg = "";
+			
+			if ( w <= 0)
+			{
+				errMsg = errMsg + "* Weight cannot be 0 or less \n";
+			}
+			
+			if ( h <= 0)
+			{
+				errMsg = errMsg + "* Height cannot be 0 or less \n";
+			}
+			
+			if ( hi < 0)
+			{
+				errMsg = errMsg + "* Height cannot be less than 0 \n";
+			}
+			
+			if ( errMsg != "")
+			{
+				alert(errMsg);
+			}
+			else
+			{
+				var BMI = ((w) / (h*h));
+				var resultMsg = "";
+				if( BMI < 19)
+				{
+					resultMsg = "Your BMI is " + BMI.toFixed(1) + " indicating your weight is in the Underweight category for adults of your height. Time to go to The Gym for them gains!";
+				}
+				else if(BMI < 25)
+				{
+					resultMsg = "Your BMI is " + BMI.toFixed(1) + " indicating your weight is in the Healthy category for adults of your height. Nice! Time to join the gym to maintain!";
+				}
+				else if(BMI < 30)
+				{
+					resultMsg = "Your BMI is " + BMI.toFixed(1) + " indicating your weight is in the Overweight category for adults of your height. No Problem. Join The Gym to lose that weight!";
+				}
+				else
+				{
+					resultMsg = "Your BMI is " + BMI.toFixed(1) + " indicating your weight is in the Obese category for adults of your height. Join The Gym now and ch";
+				}
+				alert(resultMsg);
+			}
+		}
+	</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
